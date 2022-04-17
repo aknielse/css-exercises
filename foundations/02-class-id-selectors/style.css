@@ -1,7 +1,14 @@
+/* removing for the purpose of this exercise...
 p {
     font-family: Verdana, DejaVu Sans, sans-serif;
     background-color:  lightcoral;
 }
+*/
+.odd {
+    font-family: Verdana, DejaVu Sans, sans-serif;
+    background-color:  lightcoral;
+}
+
 
 #div-one {
     color: blue;
