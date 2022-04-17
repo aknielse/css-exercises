@@ -1,10 +1,9 @@
-.point-one,
-.point-two {
+p {
     font-family: Verdana, DejaVu Sans, sans-serif;
     background-color:  lightcoral;
 }
 
-.div-one {
+#div-one {
     color: blue;
     font-size: 36px;
 }
@@ -13,7 +12,7 @@
     font-size: 24px;
 }
 
-.div-two {
+#div-two {
     background-color: lightgreen;
     font-size: 24px;
     font-weight: bold;
