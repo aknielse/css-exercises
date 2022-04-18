@@ -28,7 +28,7 @@ p.small-para { /* Made a descendant class to override font size */
   font-size: 20px;
 }
 /* descendant examples */
-.text.child { /* added descendant class .text */
+.text .child { /* added descendant class .text */
   color: red;
   font-size: 14px;
 }
