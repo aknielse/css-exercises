@@ -11,20 +11,24 @@
   font-size: 22px;
 }
 
-#confirm-button {
+/* Button config */
+
+#confirm-button {  /* uses ID but lacks confirm class*/
   background: green;
   color: white;
-  font-size: 20px;
   font-weight: bold;
 } 
 
-.button {
+.cancel { /* cancel class for cancel button */
   background-color: #ffc0cb;
   color: black;
-  font-size: 20px;
 }
 
-.child {
+.button { /* default button class */
+  font-size: 20px;
+}
+/* descendant examples */
+.text.child { /* added descendant class .text */
   color: red;
   font-size: 14px;
 }
