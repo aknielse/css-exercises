@@ -7,9 +7,9 @@ body {
   width: 400px;
   background: #fff;
   margin: 16px auto;
-  padding: auto;
+  padding: 8px;
   display: block;
-  border: 8px solid white;
+  /* border: 8px solid white; */
   
 } 
 
