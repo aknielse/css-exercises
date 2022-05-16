@@ -15,14 +15,14 @@ body {
 
 .title {
   background: hsl(204, 100%, 95%);
-  padding: 16px;
+  padding: 8px;
   margin: 0 0 8px;
   font-size: 16px;
 }
 
 .content {
   background: #e3f4ff;
-  padding: 16px;
+  padding: 16px 8px 16px;
   margin: 8px 0 8px;
 }
 
@@ -30,7 +30,7 @@ body {
   background: #e3f4ff;
   padding: 8px;
   text-align: center;
-  margin: 0;
+  margin: 8px 0 0;
   
 }
 
