@@ -12,40 +12,49 @@ img {
 .container1 {
   display: flex;
   flex-direction: column;
-  align-content: space-between;
-  gap: 5px;
+  gap: 32px;
 }
 
 .container2 {
   display: flex;
   flex-direction: row;
-  align-content: space-around;
-  gap: 8px;
+  justify-content: center;
+  gap: 52px;
   text-align: center;
 }
 
 .mcontainer1 {
   display: flex;
   flex-direction: column;
-  align-content: center;
+  justify-content: center;
+  max-width: 200px;
 }
 
 .mcontainer2 {
   display: flex;
   flex-direction: column;
   align-content: center;
+  max-width: 200px;
 }
 
 .mcontainer3 {
   display: flex;
   flex-direction: column;
   align-content: center;
+  max-width: 200px;
 }
 
 .mcontainer4 {
   display: flex;
   flex-direction: column;
   align-content: center;
+  max-width: 200px;
+}
+
+.image {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
 .title {
