@@ -28,21 +28,22 @@ body {
 
 .top-container {
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
+  flex-flow: row nowrap;
+  justify-content: space-between;
 }
 
 /*.middle-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  flex-grow: 1;
+  flex-wrap: wrap;
   gap: 20px;
 }*/
 
 .header {
-  text-align: center;
-  
+  font-weight: bold;
+  font-size: larger;
+  padding: 12px;
 }
 
 .icon {
@@ -56,6 +57,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+
 }
 
 .close-button {
@@ -69,6 +71,13 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+
+}
+
+.text {
+  align-items: center;
+  padding-bottom: 12px;
+  max-width: 400px;
 }
 
 button {
