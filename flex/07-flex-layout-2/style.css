@@ -36,7 +36,6 @@ body {
   display: flex;
   align-self: stretch;
   padding: 16px;
-  flex: 1;
 }
 
 a {
@@ -53,11 +52,11 @@ li {
 
 .card {
   display: flex;
-  align-self: flex-end;
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
   padding: 32px;
+
 }
 
 .main-container {
@@ -68,11 +67,8 @@ li {
 
 .content {
   display: flex;
-  flex-flow: row wrap;
-  justify-content: space-between;
-  align-content: center;
-  flex-grow: 1;
-  flex-basis: auto;
+  flex-flow: row nowrap;
+  justify-content: space-around;
   gap: 8px 8px;
 }
 
