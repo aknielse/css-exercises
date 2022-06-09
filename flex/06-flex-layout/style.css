@@ -47,7 +47,7 @@ input {
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-between;
-  background-color: lightgray;
+  background-color: #eeeeee;
 }
 
 .content {
