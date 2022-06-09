@@ -19,8 +19,8 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
-  padding: 8px;
-  font-weight: bold;
+  padding: 8px 16px 8px 16px;
+  font-weight: bold
 }
 
 input {
@@ -31,7 +31,7 @@ input {
   margin-bottom: 16px;
 }
 
-.header {
+.header, .footer {
   display: flex;
   flex-flow: row;
   justify-content: space-between;
@@ -47,10 +47,8 @@ input {
 }
 
 .footer {
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: space-between;
   background-color: #eeeeee;
+  padding: 8px;
 }
 
 .content {
