@@ -42,7 +42,8 @@ input {
   flex-direction: row;
   align-content: center;
   gap: 16px;
-  list-style: none;
+  list-style-type: none;
+  color: black;
 }
 
 .footer {
