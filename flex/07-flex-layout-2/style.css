@@ -11,6 +11,10 @@ body {
   color: white;
   font-size: 32px;
   font-weight: 900;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 12px;
 }
 
 .footer {
@@ -25,6 +29,11 @@ body {
 .sidebar {
   min-width: 300px;
   background: royalblue;
+  display: flex;
+  text-decoration: none;
+  color: white;
+  padding: 16px;
+
 }
 
 .card {
