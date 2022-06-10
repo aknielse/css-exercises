@@ -52,6 +52,7 @@ a {
 
 ul {
   padding: 0;
+  margin: 0;
   list-style: none;
 }
 
@@ -63,8 +64,8 @@ ul {
   flex: 0;
   padding: 32px;
   gap: 16px;
-  min-width: 12em;
-  min-height: 16em;
+  min-width: 21em;
+  min-height: 20em;
 }
 
 .main-container {
@@ -75,12 +76,11 @@ ul {
 
 .content {
   display: flex;
-  flex: 1 1 0;
+  flex: 1 0 0;
   flex-flow: row wrap;
-  justify-content: space-around;
   padding: 32px;
   align-content: flex-start; 
-  gap: 8px 8px;
+  gap: 24px;
 }
 
 
