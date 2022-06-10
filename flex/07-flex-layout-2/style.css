@@ -27,15 +27,19 @@ body {
 
 .middle {
   display: flex;
-  flex-direction: row;
+  flex-flow: row wrap;
+  gap: 20px;
+  height: 100%;
+  flex: auto;
 }
 
 .sidebar {
-  min-width: 300px;
+  width: 300px;
   background: royalblue;
   display: flex;
-  align-self: stretch;
   padding: 16px;
+  margin: 0;
+
 }
 
 a {
@@ -46,12 +50,16 @@ a {
   color: white;
 }
 
-li {
+ul {
+  padding: 0;
   list-style: none;
 }
 
+li {
+
+}
+
 .card {
-  display: flex;
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
@@ -67,6 +75,7 @@ li {
 
 .content {
   display: flex;
+  flex: 2;
   flex-flow: row nowrap;
   justify-content: space-around;
   gap: 8px 8px;
