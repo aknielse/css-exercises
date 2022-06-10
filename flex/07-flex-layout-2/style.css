@@ -55,16 +55,16 @@ ul {
   list-style: none;
 }
 
-li {
-
-}
-
 .card {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
+  display: flex;
+  flex: 0;
   padding: 32px;
-
+  gap: 16px;
+  min-width: 12em;
+  min-height: 16em;
 }
 
 .main-container {
@@ -75,9 +75,11 @@ li {
 
 .content {
   display: flex;
-  flex: 2;
-  flex-flow: row nowrap;
+  flex: 1 1 0;
+  flex-flow: row wrap;
   justify-content: space-around;
+  padding: 32px;
+  align-content: flex-start; 
   gap: 8px 8px;
 }
 
